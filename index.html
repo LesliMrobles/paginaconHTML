@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Hamsters</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lobster+Two:ital@1&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Esto es un comentario-->
+    <h1>Página Web de Hamsters</h1>
+
+
+
+    <h3>Imágenes de Hamsters</h3>
+
+   <!--Agregar imágen desde internet-->
+
+   <img src="https://hvc.cat/wp-content/uploads/2019/06/ha%CC%80mster-1-1080x675.jpg">
+
+   <br>
+
+   <!--Agregar imágen desde la compu-->
+    
+   <img src="images/hamster.png">
+
+<div>
+   <h3>Listas de Hamsters</h3>
+   <p>3 cosas que los hamsters <strong>aman</strong></p>
+
+
+   <!--Listas Ordenadas-->
+   <ol> <!--Order list-->
+      <li>Comer frutas</li> 
+      <li>Pasear y correr</li>
+      <li>Dormir</li>
+   </ol>
+
+   <!--Lista Desordenada-->
+   <p>3 cosas que los hamsters <strong>odian</strong></p>
+   <ul> <!--unorder list-->
+       <li>Que los molesten</li> <!--li por(asterisco) tres-->
+       <li>El frio</li>
+       <li>Compañia</li>
+   </ul>
+
+</div>
+
+   <!--Crear enlaces externos-->
+   <p> Si quieres ver un video de hamsters <a href="https://youtu.be/TUU93Z7qNQ8" target="_blank" > da click en este enlace</a></p>
+   <!--Target sirve para mandarte a otra pagina y no la misma-->
+
+   <form>
+        <!--Formulario con botones de radio (lleva base de datos)-->
+        <p>¿Tu hamster es hembra o macho?</p>
+        <label>
+            <input id="hembra" type="radio" value="hembra" name="hembra-macho" checked>Hembra
+        </label>
+
+        <br> <!--Para que aparesca abajo la opcion -->
+
+        <label>
+            <input id="macho" type="radio" value="macho" name="hembra-macho">Macho
+        </label>
+
+
+        <!--Formulario con casillas de verficacion (varias opciones)-->
+
+        <p>¿Qué tipo de hamster es el tuyo?</p>
+        <label>
+            <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" >Cariñoso
+        </label>
+        <br>
+        <label>
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+        <br>
+        <label>
+            <input id="energico" type="checkbox" value="energico" name="personalidad" checked>Enérgico
+        </label>
+
+   </form>
+
+   <footer>
+       <p><small>Esta página fue creada durante el bootcamp de <a href= https://tecnolochicas.mx target="_blank">Tecnolochicas PRO</small></a></p>
+   </footer>
+
+</body>
+</html>

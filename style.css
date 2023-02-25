@@ -1,0 +1,37 @@
+/*Estilo en el body*/
+body {
+    color:#0c0c0b;
+    background-color: rgb(82, 112, 211)
+
+}
+p,li{
+    color:rgb(46, 9, 49);
+}
+
+h3{
+    font-size: 35px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+h1{
+    font-size: 50px;
+    color:blueviolet
+    font-family:'Lobster Two', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(223, 245, 27);
+    padding: 2px;
+    margin: 12px;
+}
+
+div, footer{
+    background-color: crimson;
+}
+
